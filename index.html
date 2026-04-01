@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook - Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="top-bar">
+      <div class="brand">
+        <div class="brand-logo">f</div>
+        <div>
+          <h1>facebook</h1>
+        </div>
+      </div>
+      <div class="login-box">
+        <form class="login-form">
+          <div class="form-row">
+            <label for="email">E-mail ou telefone</label>
+            <input id="email" type="text" placeholder="E-mail ou telefone" />
+          </div>
+          <div class="form-row">
+            <label for="password">Senha</label>
+            <input id="password" type="password" placeholder="Senha" />
+          </div>
+          <button type="submit">Entrar</button>
+          <a href="#" class="forgot-password">Esqueceu a senha?</a>
+        </form>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="hero">
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+      </section>
+
+      <section class="signup-card">
+        <div class="signup-header">
+          <h3>Abra uma conta</h3>
+          <p>É rápido e fácil.</p>
+        </div>
+        <form class="signup-form">
+          <div class="name-row">
+            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Sobrenome" />
+          </div>
+          <input type="text" placeholder="Celular ou e-mail" />
+          <input type="password" placeholder="Nova senha" />
+
+          <div class="birth-row">
+            <label>Data de nascimento</label>
+            <div class="birth-selects">
+              <select aria-label="Dia">
+                <option>Dia</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+              <select aria-label="Mês">
+                <option>Mês</option>
+                <option>Jan</option>
+                <option>Fev</option>
+                <option>Mar</option>
+              </select>
+              <select aria-label="Ano">
+                <option>Ano</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="gender-row">
+            <label><input type="radio" name="gender" checked /> Feminino</label>
+            <label><input type="radio" name="gender" /> Masculino</label>
+            <label><input type="radio" name="gender" /> Personalizado</label>
+          </div>
+
+          <p class="signup-info">Ao clicar em Cadastre-se, você concorda com as <a href="#">Termos</a>, a <a href="#">Política de dados</a> e a <a href="#">Política de cookies</a> do Facebook. Você poderá receber notificações por SMS e pode optar por não receber a qualquer momento.</p>
+
+          <button type="submit" class="signup-button">Cadastre-se</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
